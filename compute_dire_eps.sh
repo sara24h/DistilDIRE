@@ -1,7 +1,7 @@
-DATA_ROOT=("SRC")
-SAVE_ROOT=("DST")
+DATA_ROOT=("/content/DistilDIRE/datasets")
+SAVE_ROOT=("/content/DistilDIRE/datasets")
 
-MODEL_PATH="models/256x256-adm.pt" # imagenet pretrained adm (unconditional, 512x512)
+MODEL_PATH="/content/drive/MyDrive/256x256_diffusion_uncond.pt " # imagenet pretrained adm (unconditional, 512x512)
 SAMPLE_FLAGS="--batch_size 1" # ddim20 is forced
 PREPROCESS_FLAGS="--compute_dire True --compute_eps True"
 
